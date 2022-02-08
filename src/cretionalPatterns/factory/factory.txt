@@ -1,0 +1,5 @@
+Factory Method
+
+- Factory tasarım deseni, nesnelerin yaratılma süreceini istemci sınıftan soyutlamak amacıyla oluşturulmuştur.
+
+

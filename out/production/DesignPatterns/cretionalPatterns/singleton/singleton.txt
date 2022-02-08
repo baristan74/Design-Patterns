@@ -1,0 +1,15 @@
+Singleton Design Pattern
+
+- Singleton pattern'de bir sınıfın sadece bir adet instance'ı olmalıdır ve bu instance'a global bir erişim noktası sağlanmalıdır.
+- Singleton sınıfının constructor’ı private olmalıdır. Böylelikle bu sınıftan new anahtar kelimesi ile yeni bir instance oluşturulması engellenmiş olur.
+- Singleton sınıfın instance'ı içeride private static olarak tutulmalıdır ve tutulan bu instance' ı döndüren public bir method bulunmalıdır.
+
+Kullanım durumları:
+
+• Örneğin karmaşık bir sisteme erişimi kontrol eden sınıfın sadece bir tane
+nesnesinin olması istenir.
+• Çünkü, bu tür nesneler trafik polisi gibi geçişi kontrol ederler, arka taraftaki
+sistemin vereceği hizmetlerin alınmasını düzenlerler vs.
+• Ön bellek (cache) ya da nesne/görev havuzu gibi yapılarda sistemi yöneten
+nesneler,
+• GoF’un örnek verdiği print spooler, file system & window manager
