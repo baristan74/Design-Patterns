@@ -1,0 +1,7 @@
+Factory Method
+
+- Factory tasarım deseni, nesnelerin yaratılma süreceini istemci sınıftan soyutlamak amacıyla oluşturulmuştur.
+
+- Factory Method ilişkisel olan birden fazla nesnenin üretimini ortak bir arayüz aracılığıyla tek bir sınıf
+üzerinden yapılacak bir talep ile gerçekleştirmek ve nesne üretim anında istemcinin üretilen nesneye olan bağımlılığını sıfıra indirmeyi hedeflemektedir.
+
