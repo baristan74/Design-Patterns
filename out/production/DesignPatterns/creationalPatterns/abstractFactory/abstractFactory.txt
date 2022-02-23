@@ -1,0 +1,6 @@
+Abstract Factory
+
+- Factory design pattern’de tek bir ürün ailesine ait tek bir arayüz mevcutken,abstract factory’de farklı ürün aileleri için farklı arayüzler mevcuttur.
+
+- Birden fazla ürün ailesi ile çalışmak durumunda kalındığında, ürün ailesi ile istemci tarafını soyutlamak için kullanılır.
+- Ürün ailelerinin oluşumunu istemci tarafından ayırarak, karar verme koşulu olmadan, esnek ve geliştirilebilir bir yapı kurmamızı sağlar.

@@ -1,0 +1,6 @@
+Builder Pattern
+
+- Sınıflardan nesneler yaratırız. Bunu yapmak için de constructorları kullanırız.
+Bir sınıfda bulunan field sayısı fazla olursa birden fazla constructora ihtiyaç duyabiliriz. Haliyle her bir field eklendiğinde yeni
+bir constructor ekleme ihtiyacı hissedebiliriz. Çünkü nesneyi oluştururken hangi field başta atama yapılacak ya da yapılmayacak bilemeyebiliriz.
+İşte bu uzayıp giden parametre sayısından, karmaşık constructorlardan kurtarmak için Builder Pattern güzel bir çözüm sunuyor.
