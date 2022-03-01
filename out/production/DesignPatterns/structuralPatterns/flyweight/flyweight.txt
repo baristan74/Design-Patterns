@@ -1,0 +1,1 @@
+- adapter bridge ve composite txt yazılacak composite 1 örnek daha eklenecek sonrasında flyweight bitirip bitir
