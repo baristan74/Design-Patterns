@@ -1,0 +1,14 @@
+Bridge Design Pattern
+
+- Bridge, Türkçe karşılığı ile köprü büyük sınıfları veya birbiriyle yakın ilişkili sınıfları, birbirinden bağımsız olarak geliştirilebilecek iki ayrı hiyerarşiye bölmenizi sağlayan bir tasarım desenidir.
+- Soyutlanılan nesneler ile işi gerçekleyecek somut nesneler arasında köprü
+  kurar.
+- Soyut sınıflar ve iş yapacak sınıfları birbirinden ayırdığı için iki sınıf tipinde yapılacak bir değişiklik birbirlerini etkilemez.
+- Hangi sınıfın kullanılacağına çalışma zamanında karar verilir.
+- Bu mekanizma sayesinde çalışma anında, gerçek işi yapan sınıf değiştirilebilir.
+
+
+- Soyutlanan nesne ve implementasyonun birbirinden ayrılarak düzenlenmesine olanak sağlar.
+- Nesnenin değişimi impelementasyonu, implementasyonun değişimi nesneyi etkilemez. Her ikisi bağımsız olarak geliştirilebilir ve türetilen
+tipleri üzerinden her türlü nesne-implementasyon kombinasyonu gerçekleşebilir.
+- Tek bir implementasyonun farklı nesneler tarafından da kullanılmasına olanak sağlar
