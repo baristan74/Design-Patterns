@@ -1,0 +1,9 @@
+Adapter Design Pattern
+
+- Adapter, bir nesnenin arayüzünü değiştirerek diğer nesnenin kullanabileceği hale getirir.
+- Bu tasarım deseni birbiriyle ilişkili olmayan interface'lerin birlikte çalışmasını sağlar.
+- Kodların yeniden yazılmasını engeller, daha önce yazılmış olan kodları düzenlemek zorunda kalmayız.
+
+- Var olan modül(ler) değiştirilmeden sisteme yeni modüller eklenebilir
+
+- Adapter kalıp, kullanılmak istenen bir sınıfın kullanılacak arayüzün gereklilikleri ile eşleşmediği zamanlarda kullanılır.

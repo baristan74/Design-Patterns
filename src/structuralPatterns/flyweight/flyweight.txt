@@ -1,0 +1,6 @@
+Flyweight Design Pattern
+
+- Flyweight her bir nesnede tüm verileri tutmak yerine, ortak kısımları paylaşarak mevcut hafıza (RAM) miktarına daha fazla nesne sığdırmanıza olanak sağlayan bir yapısal tasarım desenidir.
+- Nesnelerin ortak olan, paylaşılabilen içerikleri ve bunların dışında kendilerine has durumları olduğu takdirde,
+nesne üretimlerini sürekli tekrar ettirmektense basit bir havuz içerisinden tedarik ettirmek, uygulamanın harcadığı bellek alanlarının optimize edilmesi için yeterli olacaktır.
+

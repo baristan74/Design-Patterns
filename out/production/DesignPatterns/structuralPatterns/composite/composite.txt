@@ -1,2 +1,14 @@
-Kelime anlamı bileşik
-Nesneler arasına bir hiyerarşi yada bir ağaç yapısı var ise bu pattern kullanılabilir
+Composite Design Pattern
+
+- Nesneler arasına bir hiyerarşi yada bir ağaç yapısı var ise bu pattern kullanılabilir.
+
+- Composite tasarım desenini hiyerarşik nesne yapıları kurmak istediğimizde ve sistemimizde parçalardan bütün oluşturmak istediğimizde kullanırız.
+- Sistemin bütünü ve parçaları birbirinden soyutlandığı için operasyonel olarak birbirinden farklı işler yaptırılabiliriz.
+- Sistemin bütünü, parçalardan oluşur.
+- Geliştirdiğimiz uygulamalardaki menüleri ve menü üzerindeki menü item’ları düşünebiliriz. Menü, menü item’lardan oluşur.
+
+
+Component: Soyut sınıftır. Özellikler ve operasyon tanımlarını barındırır.
+Composite: Component nesnesinin somut hâlidir. İçerisinde Component listesi tutar. Bu liste sayesinde hiyerarşik yapıyı kurar.
+Component listesi için gerekli olan ekle, sil, component değerine ulaşma fonksiyonlarını barındırır.
+Leaf: Temel operasyon sınıfı.
