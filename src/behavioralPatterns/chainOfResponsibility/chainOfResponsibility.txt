@@ -1,0 +1,13 @@
+Chain Of Responsibility
+
+- Chain of Responsibility pattern behavioral patterns gurubuna ait olan ve özünde birbirini takip eden iş dizisine ait process'leri
+redirect ve handle etmek yada istekte bulunan-confirm eden süreçleri için çözüm olarak ortaya çıkmış bir tasarım desendir.
+
+- Chain of Responsibility deseni, ortak bir isteğin (request), birbirlerine zayıf bir şekilde bağlanmış(Loosly Coupled)
+nesneler arasında gezdirilmesi ve bu zincir içerisinde asıl sorumlu olanı tarafından ele alınması gerektiği vakalarda kullanılmaktadır.
+
+-Desenin ismindeki zincir benzetmesi ise sorumluluğu üstlenecek olan nesnelerin (handler nesneler) belirli bir sırayla ve duruma göre, görevi bir sonraki nesneye iletmesinden gelir.
+- İstemcinin bilgisi dışında yani ondan bağımsız şekilde zincire yeni nesneler eklenebilir ya da çıkartılabilir.
+
+- Chain of Responsibility (Sorumluluk Zinciri) tasarım deseni if bloklarını dikeyden yataya taşımak şeklinde düşünülebilir.
+

@@ -1,0 +1,15 @@
+Observer Design Pattern
+
+- Bazen, çalışma zamanında bir nesnede meydana gelen değişikliklerin bazı nesneler tarafından bilinmesine ihtiyaç duyulur.
+Bu tarz bir ihtiyaç olduğunda en efektif çözüm yolu, observer tasarım desenidir.
+
+- Bir sınıfta herhangi bir değişiklik olduğunda, bu sınıftaki değişiklikten haberdar olması gereken sınıflar olabilir.
+- Bu sınıflara gözlemci sınıflar denir.
+- Hepsi aynı base sınıftan türerler ve takip edilmek istenen sınıfın içerisinde bu base sınıf tipinden bir liste bulunur.
+- İlgili olay gerçekleştiğinde bu sınıflara haber verilmesi, takip edilen sınıfın kendi içerisinde bulunan listedeki sınıfların ilgili
+metotlarının sırasıyla çalıştırılması ile gerçekleşir.
+
+- Seçilen sınıf değiştiğinde, diğer nesnelere haber verilir ve diğer nesneler kendilerini günceller.
+- Diğer gözlemci nesneler abone olabilir. Abonelikten çıkabilir.Nesne yine kendi işini yapmaya devam eder. Hiçbir yer değişmez.
+- Sadece gerekli haber verilecek yerin içerisinde bütün gözlemcilere haber vermek için metot çağırır.
+
