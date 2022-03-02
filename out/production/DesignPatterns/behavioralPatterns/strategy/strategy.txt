@@ -1,0 +1,10 @@
+Strategy Design Pattern
+
+- Bir işlem için farklı yöntemlerin uygulanabilir olduğu durumlarda, bu yöntemi kullanacak olan nesne, hangi yöntemin uygulanacağını seçer.
+Çünkü bu içerik nesnesi, yöntemleri belirleyen üst sınıfı içerir.
+- Farklı yöntem veya strateji alt sınıfları da, bu üst sınıftan türerler. Bu tasarım deseniyle, yöntemin nasıl uygulanması gerektiği ile ilgili detaylar,
+bu yöntemi kullanacak nesneden ayrılmış olur.
+- Ayrıca bu tasarım deseninin kullanılmasıyla, kod uzun "if/else" veya "switch" ifadelerinden ayıklanır.
+- Strateji tasarım deseni geliştirdiğimiz uygulama içinde algoritmaları sınıflandırmamızı ve çalışma anında kullanacağımız algoritmayı seçmemizi sağlar.
+Bu algoritmalar kendi içinde kapsüllenerek (encapsulate) programın geri kalanından soyutlanır ve uygulamamızın loosely coupled (gevşek bağlı) )bir yapıda olmasına yardım ede
+

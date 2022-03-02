@@ -1,0 +1,16 @@
+Visitor Design Pattern
+
+- Visitor tasarım deseni (Visitor Design Pattern) anlatılırken bir uygulamada bir interface ve o interface’ den türeyen gerçek sınıfların olduğu düşünülsün. Bu
+yapıya yeni davranışlar eklenmek isteniyor ancak yeni metotlar eklemeden veya arayüzü kalabalıklaştırmadan yapmak isteniyor. Her sınıfa eklenecek olan işlevselliğin aynı olmadığı düşünülsün.
+Burada arayüze tek bir metot imzası eklenir. O da gelen ziyaretçiyi kabul et metodudur. Bu metot, parametre olarak Visitor tipinde bir nesne alır. Visitor abstract veya interface olarak tanımlanmalıdır
+
+- Visitor tasarım deseni, birlikte kullanılan nesnelerden bir algoritmayıayırmak istendiğinde kullanılır.
+- Ziyaret edilen nesnelerde spesifik bir iş yapılır.
+- Uygulamadaki sınıflara yeni özellik eklenmek istendiğinde kullanılır. Bunu yapmak için arayüzlerin işlevselliğini arttırsak, arayüzden türeyen her sınıf
+bu metodu uygulayamayacağı için prensipler ihlal edilmiş olur.
+- Ya da her sınıfa ihtiyacı olunca metot eklenir. Bu durumda da bakım zorlaşacak.
+
+- Uygulamadaki sınıflara yeni bir metot eklemek için genelde ya üst sınıfa yeni bir metot eklenir ve tüm alt sınıfların bu metotta sahip olması sağlanır ya da alt sınıfta ihtiyaç olanlara metot eklemesi yapılmalıdır.
+ Üst sınıfa eklediğimizde tüm alt sınıflarda bu metot gerçeklenmelidir, bu durumda ihtiyacı olmayan sınıflarda metodu gerçekler.
+- Alt sınıflara yazıldığında bakım zorlaşır.
+Öyleyse; Genel sınıf hiyerarşisini değiştirmeden sınıflara yeni bir metot eklemek için ziyaretçi(visitor) şablonu kullanılabilir.
