@@ -1,0 +1,12 @@
+State Design Pattern
+
+- State tasarım deseni; bir nesnedeki bir özellik değiştirildiğinde o nesnenin çalışmasını değiştirmesini veya o durum için kod işlemesini düzenler
+-Bunu basit bir şekilde gerçekleştirir. Şöyle ki; içinde bir arayüzün referansını tutar ve property si değiştiğinde o arayüze o arayüzden türeyen
+ başka bir nesne atar.
+
+-State design patterni, nesnenin iç durumundaki değişikliklere göre çalışma zamanında farklı davranışlar sergilemesini sağlayan tasarım kalıbıdır.
+Yani nesne belli özelliklerindeki değişimlere göre farklı davranışlar, fonksiyonellikler sergilemesi gibi düşünebiliriz.
+
+
+
+
