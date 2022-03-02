@@ -1,0 +1,33 @@
+Composition ile Aggregation Arasındaki Fark
+
+Aggregation : Bu tür ilişki de nesnelerin yaşam döngüleri birbirlerinden ayrıdır. Bir nesne diğerinden bağımsız olarak da yaşamını sürdürebilir. Yani aralarında bir sahiplik ilişkisi (has-a ) vardır. Örneğin Dizüstü Bilgisayarınız ile onun çantası arasında böyle bir ilişki vardır. Çantayı ayrı olarak ya da laptop’u ayrı olarak düşünebiliriz. Yaşam döngüleri ortak değildir. UML diagramında gösterimi ve koda dökülmüş bir örneği aşağıdaki gibidir.
+
+UML'de içi boş kutu
+
+public class Canta
+{
+…
+}
+public class Laptop {
+private Canta _canta;
+public Laptop(Canta canta)
+{
+_canta = canta;
+}
+}
+
+Composition : Bu tür ilişki de nesnelerin yaşam döngüleri birbirleriyle bağlantılıdır.
+Bir nesne diğerinden bağımsız olarak kullanılamaz. Aralarındaki ilişki parçası olma(is-a-part-of ) ilişkisidir.
+ Az önceki örneğimizden gidersek dizüstü bilgisayarımız ile ekranı arasında bu tarz bir ilişki vardır. UML diagramında gösterimi ve koda dökülmüş bir örneği aşağıdaki gibidir.
+
+UML'de içi dolu kutu
+
+public class Ekran
+{
+…
+}
+public class Laptop
+{
+…
+Ekran _ekran = new Ekran();
+}
